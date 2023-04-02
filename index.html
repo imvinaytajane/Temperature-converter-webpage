@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="card">
+        <h1 class="tittle">Temperature Converter</h1>
+        <form id="temp_form">
+            <div class="form_group">
+                <label for="celcius">Celcius</label>
+                <input type="number" id="celcius" value="0" />
+            </div>
+            <div class="form_group">
+                <label for="farenheit">Farenheit</label>
+                <input type="number" id="farenheit" />
+            </div>
+        </form>
+    </div>
+
+    <script src="handler.js"></script>
+    <script src="converter.js"></script>
+    <script>celciusUpdated()</script>
+</body>
+
+</html>
